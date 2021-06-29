@@ -289,7 +289,6 @@ class Model:
         dataset = df.values
 
         scaler = MinMaxScaler(feature_range=(0, 1))
-        #dataset = scaler.fit_transform(dataset)
 
         dataset_size = dataset.shape[0]
         train_set = dataset[0: math.ceil(partition * dataset_size)]
