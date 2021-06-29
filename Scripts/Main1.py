@@ -126,7 +126,7 @@ class Model:
 
 
 
-    def retrieve_model (self,saved_model_path =r'C:\Users\Admin\pracExc\Project_Bitcoin\testing.h5' ):
+    def retrieve_model (self,saved_model_path =r'C:\Users\Admin\pracExc\Project_Bitcoin\Saved_Model.h5' ):
 
         """ Load the saved model
 
